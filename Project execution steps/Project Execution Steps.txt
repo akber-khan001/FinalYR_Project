@@ -1,0 +1,16 @@
+Project Execution Steps:
+1. Gather all the reqired components: Arduino UNO, ESP 8266 Wi-Fi Module, Relay Driver Module, LDR sensor, Light Bulb Holder, 1k resitor, Copper wires, Bread board, wooden chasi.
+2. Download Arduino IDE in the system to implement the code.
+3. Test the working of all the components by integrating them with Arduino UNO.
+4. Connect the Arduino UNO to the system using a USB to UART cable and then test the components.
+5. Write the code for the implementation of the project and upload the code to Arduino UNO.
+6. Open Thing Speak API in the web browser.
+7. Go to the channel that has been created for the project. 
+8. Enable both public and private views if required.
+9. Now during night time(i.e. when the incoming light intensity is less than the threshold set) the light bulb will automatically turn on.
+10. Later when the sun rises and the incident light intensity is greater than the threshold set, the light bulb automatically turns off.
+11. This data from the LDR sensors is continiously sent to the cloud server (Thing Speak API) using the ESP 8266 Wi-Fi module and visualizations are created.
+12. These visualizations allow us to monitor the working of the smart street lighting system remotly.
+13. From these visualizations we can identofy if the various components and working properly or not.
+14. Hence using our project we can automate the street lights and monitor them remotely.
+15. Also due to automation the man made errors are avoided and electricity is saved in the long run.  
